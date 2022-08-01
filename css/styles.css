@@ -1,0 +1,253 @@
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.title-img-container{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+/*            Section 2                 */
+
+
+
+
+
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    /* add this line or not result is same due to default stacking       z-index: 1;  */
+    
+}
+
+.features-colmn{
+    padding:5%;
+    text-align: center;
+}
+
+.features-icon{
+    color: #ef8172;
+    width: 200px;
+    margin: 0 0 1rem;
+}
+
+.features-icon:hover{
+    color:#ff4c68;
+}
+
+h3{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.features-descrp{
+    color: #8f8f8f;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+/*                           section   3                        */
+
+
+
+
+
+
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+
+
+
+/*               press                        */
+
+
+#press{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #ff4c68;
+}
+
+.press-img{
+    width:15%;
+    margin: 20px 20px 50px;
+} 
+
+
+
+
+
+
+
+/*                  Pricing                        */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.price-card{
+    padding: 3% 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1035px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+
+.cta-heading{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: white;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 7% 15%;
+}
+
+.footer-icon{
+    margin: 3% 1% 2%;
+}
+
+
+
+
+
+
+.regards{
+    color: black;
+    text-align: center;
+    margin: 30px auto 50px;
+  }
+  .regname{
+    color:blueviolet;
+  }
